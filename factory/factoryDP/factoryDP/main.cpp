@@ -8,10 +8,9 @@ using namespace std;
 int main()
 {
     CarFactory carFactory;
-    CarBase* X = carFactory.createModelX();
+    unique_ptr<CarBase> X(carFactory.createModelX());
     X->printCarDetails();
-    CarBase* Y = carFactory.createModelY();
+    unique_ptr<CarBase> Y(carFactory.createModelY());
     Y->printCarDetails();
-    delete X;
-    delete Y;
+
 }
