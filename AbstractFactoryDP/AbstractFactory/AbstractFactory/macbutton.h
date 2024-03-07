@@ -3,6 +3,7 @@
 class MacButton :
     public IButton
 {
+public:
     void pressButton() override;
 };
 

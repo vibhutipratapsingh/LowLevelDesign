@@ -3,6 +3,7 @@
 class WinButton :
     public IButton
 {
+public:
     void pressButton() override;
 };
 
