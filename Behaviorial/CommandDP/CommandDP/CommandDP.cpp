@@ -70,26 +70,5 @@ int main(){
     Invoker* inv = new Invoker();
     inv->pressCommand(c1);
     inv->pressUndoCommand();
-    //command_queue.push_back(m1);
-    //Move* m2 = new Move;
-    //command_queue.push_back(m2);
-    //Move* m3 = new Move;
-    //command_queue.push_back(m3);
-    //Move* m4 = new Move;
-    //command_queue.push_back(m4);
-
-    //for(int i=0; i < command_queue.size(); i++){
-    //    command_queue[i]->execute(mike); 
-    //}
-
-    //for(int i=command_queue.size()-1; i > -1; i--){
-    //    command_queue[i]->undo(mike); 
-    //}
-
-    //// And of course some cleanup...
-    //for(int i=0; i < command_queue.size(); i++){
-    //    delete command_queue[i];
-    //}
-
-    //return 0;
+    
 }
